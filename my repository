@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"
+       content="width=device-width",
+       initial-scale="1.0"
+       <title>Emmanuel kiptanui-software developer</title>
+       <style>
+        body{
+            font-family:Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color:#fff;
+            text-decoration: none;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display:inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header branding h1{
+            margin: 0;
+        }
+        header nav {
+            float:right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url("showcase.jpg") no-repeat 0 -400px;
+            text-align:center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+        }
+        #main h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 20px;
+            text-align:center;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color:#fff;
+            background-color:#333;
+            text-align: center;
+        }
+        .profile-img {
+            display:block;
+            margin: 0 auto 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .form-container {
+            margin: 20px auto;
+            padding:20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 50%;
+            border-radius: 10px;
+        }
+        .form-container h2 {
+            text-align:center;
+        }
+        .form-container input, .form-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+       </style> 
+ </head>
+  <body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <hi>Emmanuel kiptanui</hi>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="register">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>Your go-to developer for all your software needs</p>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+        <h2>About Me</h2>
+        <img
+        src="IMG_20240528_121729_412.JPG"
+        ALT="Emmanuel kiptanui" class="profile-img">
+        <p>I am Emmanuel Kiptanui, a 23-year-old software developer based in Kenya.I provide Software development services at a reasonable fee and offer lasting solutions to your software needs.</p>
+
+      <h2 id="portfolio">Portfolio</h2>
+      <div class="box">
+        <h3>Project 1</h3>
+        <p>Description of project 1.</p>
+      </div>
+      <div class="box">
+        <h3>Project 2</h3>
+        <p>description of project 2.</p>
+      </div>
+      <div class="box">
+        <h3>Project 3</h3>
+        <p>description of project 3.</p>
+      </div>
+     </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email:<a href="mailto:emmanuelyego550@gmail.com">emmanuelyego550@gmail.com</a></p>
+            <p>Phone: <a href="tel:+254703844030">0703844030</a></p>
+        </div>
+    </section>
+
+    <section id="register">
+        <div class="container">
+            <div class="form-container">
+                <h2>Create an Account</h2>
+                <form action="register.php" method="POST">
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="password" placeholder="password" required>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Emmanuel Kiptanui &copy; 2024</p>
+    </footer>
+  </body>
+</html>
